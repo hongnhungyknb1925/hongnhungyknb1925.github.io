@@ -1,0 +1,138 @@
+body{
+    background-color:moccasin;
+    
+}
+*{
+    margin:0;
+    padding:0
+}
+.header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color:chocolate; 
+    font-family: Comfortaa;
+    font-size:60px;
+    margin:80px;
+    padding:20px;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:50px;
+    flex-wrap: wrap;
+}
+.items {
+    background-color:white;
+    color:black;
+    font-size: 18px;
+    padding:10px;
+    text-align: center;
+    width: 20%;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.row_special{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color:cornsilk;
+    padding:15px 0;
+
+}
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+a:hover{
+    color: #999966;
+}
+
+.top{
+    margin:0 107px;
+}
+
+ul{
+    color:rgb(158, 47, 47);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding:10px;
+    margin:10px;
+}
+.page_content{
+    display:flex;
+    font-size: 20px;
+    flex-direction:column;
+    padding:90px;
+    margin:19px;
+}
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family:Zilla Slab; 
+    color:chocolate;
+    border-top:3px solid black;
+    padding:40px 0;
+}
+h2{
+    font-size:40px;
+}
+p{
+    font-size:30px;
+}
+h3{
+    font-size:35px;
+}
+.logo{
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+}
+.money{
+    display: flex;
+    flex-direction: row;
+    color:darkred;
+}
+pre{
+    font-size:30px;
+}
+.design_information{
+    display: flex;
+    flex-direction:column;
+}
+
+.column{
+    border-right: 3px solid chocolate;
+    
+}
+.image{
+    width:100%;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: pacifico;
+    text-align: center;
+    font-size: 100px;
+}
+li{
+    list-style-type: none;
+}
+.image_1{
+    display: flex;
+    width:15%;
+    flex-direction: column
+}
+footer ul{
+    color:chocolate;
+}
+.width500{
+    width: 500px;
+    margin:0 auto;
+}

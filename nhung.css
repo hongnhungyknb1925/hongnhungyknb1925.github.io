@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(.jpg);
+    background-repeat: repeat;
+    background-size: cover  
+}
+
+/* khai báo class */
+.abc{
+background-attachment: fixed;
+}
+/* khai báo Id  */
+#dd {
+    color: burlywood;
+
+}
